@@ -1,4 +1,5 @@
 # DC
 Data Carpentry course 2018
 
-* Bullet point
+##
+Course material for the course

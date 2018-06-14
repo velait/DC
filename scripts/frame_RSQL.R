@@ -44,3 +44,7 @@ ggplot(surveys2002, aes(weight)) + stat_density(geom="line")
 # exercise: subset and plot
 
 surveys %>% filter(year == 2002, weight < 100) %>% as.data.frame() %>% ggplot(aes(weight)) + stat_density(geom="line")
+
+
+# Save the surveys2002 into csv in data folder
+write_csv(as.data.frame(surveys2002), path="data/survey2002")
